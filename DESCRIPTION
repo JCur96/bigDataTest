@@ -1,0 +1,20 @@
+Package: bigDataTest
+Title: Test case for big data and Datastorr
+Version: 0.1.0
+Authors@R: 
+    person(given = "Jake",
+           family = "Curry",
+           role = c("aut", "cre"),
+           email = "jake.curry96@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Tests to see if datastorr really can do up to 2GB
+License: What license it uses NEED TO WORK THIS OUT PROBS MIT, BUT SEEING AS I DIDNT WRITE ALL THIS FROM SCRATCH WHO KNOWS
+Encoding: UTF-8
+LazyData: true
+Imports: 
+Depends:
+RoxygenNote: 6.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
